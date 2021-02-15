@@ -13,7 +13,7 @@ public class AdminLoginTest {
       boolean res=Phome.adminlogin("Admin","Admin");
       if(res)
       {
-    	  System.out.println("Admin login Test pass");
+    	  System.out.println("Admin login Test sucessfully pass");
       }else
       {
     	  System.out.println("Adminlogin test is fail");
