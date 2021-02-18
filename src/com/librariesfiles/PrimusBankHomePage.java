@@ -16,7 +16,7 @@ public class PrimusBankHomePage extends Constants
       driver.findElement(By.id("txtuId")).sendKeys(uid);
       driver.findElement(By.id("txtPword")).sendKeys(pwd);
       driver.findElement(By.id("login")).click();
-      Thread.sleep(2000);
+      Thread.sleep(3000);
       acturl=driver.getCurrentUrl();
       if (acturl.toLowerCase().contains(expurl.toLowerCase())) 
       {
